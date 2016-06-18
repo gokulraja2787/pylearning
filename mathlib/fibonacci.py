@@ -1,10 +1,10 @@
 #!/usr/bin/python
-'''
+"""
     Author: Gokul Rangarajan
     Date:   May 12, 2016
     Description: Module to calculate fibonacci series
     for given n numbers
-'''
+"""
 SERIES_1 = 0
 SERIES_2 = 1
 

@@ -1,9 +1,9 @@
 #!/usr/bin/python
-'''
+"""
     Author: Gokul Rangarajan
     Date:   May 7, 2016
     Description: Module to run factorial
-'''
+"""
 
 
 def factorial(n):

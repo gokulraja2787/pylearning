@@ -1,9 +1,9 @@
 #!/usr/bin/python
-'''
+"""
     Author: Gokul Rangarajan
     Date:   May 12, 2016
     Description: Input Utility
-'''
+"""
 
 
 def acceptint(msg):

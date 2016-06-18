@@ -1,11 +1,7 @@
 #!/usr/bin/python
 # This is Python Package
-book = []
-NAME = 'Name'
-CELL = 'Cell'
-
-
-def addcontact(name, phone):
-    entry = {NAME: name, CELL: phone}
-    book.append(entry)
-    pass
+"""
+    Author: Gokul Rangarajan
+    Date: June 18 2016
+    Description: Initialize datalib package
+"""
