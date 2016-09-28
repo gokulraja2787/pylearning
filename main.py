@@ -12,7 +12,7 @@ from mathlib.fibonacci import fibn
 print("Welcome")
 menu = None
 
-while (None == menu or menu != 0):
+while None == menu or menu != 0:
     print('Operation Menu:')
     print('1. Factorial')
     print('2. Fibonacci')
