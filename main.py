@@ -6,13 +6,14 @@
 """
 from datalib.phoneBook import phonebook
 from iolib.iputil import acceptint
-from mathlib.fact import factorial
-from mathlib.fibonacci import fibn
+from mathlib.mathutil import MathUtil
 
 print("Welcome")
 menu = None
 
-while None == menu or menu != 0:
+mathUtil = MathUtil();
+
+while menu is None or menu != 0:
     print('Operation Menu:')
     print('1. Factorial')
     print('2. Fibonacci')
@@ -20,17 +21,18 @@ while None == menu or menu != 0:
     print('0. Exit')
     mnu = 'Select operation:'
     menu = acceptint(mnu)
-    if (1 == menu):
+    if 1 == menu:
         n = acceptint('Enter a value for n: ')
         try:
-            result = factorial(n)
+            result = mathUtil.factorial(n)
             print("The result is %d" % result)
         except Exception as e:
             print(e)
-    elif (2 == menu):
+    elif 2 == menu:
         n = acceptint('Enter the number of sequence: ')
-        fibn(n)
-    elif (3 == menu):
+        result = mathUtil.fibonacci(n)
+        print(result)
+    elif 3 == menu:
         phonebook()
     else:
         print('Ending')
